@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void smaller (float a, float b){
+
+  if (a<b){
+    cout<<"smaller: "<<a;
+  }
+
+  else {
+    cout<<"smaller: "<<b;
+  }
+}
+
+int main (){
+  float x, y;
+  cout <<"enter with the value of do x: " <<endl;
+  cin>>x;
+  cout<<"enter with the value of do y: "<<endl;
+  cin>> y;
+  smaller (x,y);
+  return 0;
+}
