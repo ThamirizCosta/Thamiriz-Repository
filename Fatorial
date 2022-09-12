@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int fatorial (int x) {
+int fat=1;
+for (int i=x; i>=1; i--){
+      fat=fat*1;
+  }
+  
+Return fat;
+
+}
+
+int main (){
+cout<<fatorial(4)<< endl;
+Return 0;
+
+}
